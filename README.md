@@ -47,6 +47,10 @@ The analysis followed a four-stage process:
 
 Throughout, data integrity was protected by keeping separate raw and working copies of the dataset per hypothesis, using left joins to avoid discarding valid records, and cross-validating results to guard against inflated in-sample accuracy.
 
+## Projects
+
+**[Ad Copy Scorer](ad_copy_scorer/)** — A Streamlit app built on this analysis. Paste ad copy and get a relative performance score plus suggested edits (word count, numbers, calls-to-action, tone). Run it on your own data; no raw data or trained model is included in this repo.
+
 ---
 
 *This brief covers methodology only. Specific findings and performance figures are available in the full deck only.*
